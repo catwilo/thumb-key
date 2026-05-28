@@ -27,6 +27,7 @@ import com.dessalines.thumbkey.keyboards.KB_DE_TYPESPLIT
 import com.dessalines.thumbkey.keyboards.KB_DE_TYPESPLIT_IMPROVED
 import com.dessalines.thumbkey.keyboards.KB_DE_TYPESPLIT_SUAVE
 import com.dessalines.thumbkey.keyboards.KB_ENLV_THUMBKEY
+import com.dessalines.thumbkey.keyboards.KB_EN_LOI_SHELL
 import com.dessalines.thumbkey.keyboards.KB_EN_COLUMNAR
 import com.dessalines.thumbkey.keyboards.KB_EN_COLUMNAR_QUICK
 import com.dessalines.thumbkey.keyboards.KB_EN_CZ_THUMBKEY
@@ -80,6 +81,7 @@ import com.dessalines.thumbkey.keyboards.KB_EN_SYMBOLS_NUMBERS_ARROWS_TWO_HANDS
 import com.dessalines.thumbkey.keyboards.KB_EN_SYMBOLS_NUMBERS_ARROWS_TWO_HANDS_COMPACT
 import com.dessalines.thumbkey.keyboards.KB_EN_SYMBOLS_NUMBERS_TWO_HANDS
 import com.dessalines.thumbkey.keyboards.KB_EN_SYMBOLS_TWO_HANDS
+import com.dessalines.thumbkey.keyboards.KB_ALICE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_COMPOSE
 import com.dessalines.thumbkey.keyboards.KB_EN_THUMBKEY_FLIPPED_NUMPAD
@@ -215,6 +217,7 @@ import com.dessalines.thumbkey.keyboards.KB_VN_THUMBKEY
 enum class KeyboardLayout(
     val keyboardDefinition: KeyboardDefinition,
 ) {
+    AliceBoard(KB_ALICE), // aliceboard
     ENThumbKey(KB_EN_THUMBKEY), // "english thumb-key"
     ENThumbKeyProgramming(KB_EN_THUMBKEY_PROGRAMMING), // "english thumb-key programming"
     DEThumbKey(KB_DE_THUMBKEY), // deutsch thumb-key
@@ -383,6 +386,7 @@ enum class KeyboardLayout(
     ), // english thumb-key programming expanded
     HIThumbKey(KB_HI_THUMBKEY), // हिन्दी thumb-key
     ENNLTypeSplit(KB_EN_NL_TYPESPLIT), // english nederlands type-split
+    ENLoiShell(KB_EN_LOI_SHELL), // english loi shell
     HIThumbKeyExtended(KB_HI_THUMBKEY_EXTENDED), // हिन्दी thumb-key extended
     FRThumbKeyV3(KB_FR_THUMBKEY_V3), // français thumb-key v3
     DEThumbkeySymNum(KB_DE_THUMBKEY_SYMNUM), // deutsch thumb-key symnum
